@@ -1,4 +1,6 @@
-name: Python CI for ${{ github.actor }}
+name: Python CI
+
+run-name: "${{ github.actor }} - ${{ github.sha }}"
 
 on:
   push:
